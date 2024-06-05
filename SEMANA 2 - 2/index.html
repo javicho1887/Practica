@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>..::HTML Clase 2::..</title>
+        <meta charset="UTF-8"></meta>
+        <meta Keywords="progra, web"></meta>
+    </head>
+    <body>
+        <p>
+            Comentarios:
+            <textarea cols="30", rows="5">
+                Escribe aquí algún tipo de comentario
+
+            </textarea>
+        </p>
+        <p> 
+            <label> Correo:
+            <input type="Text" name="Correo" placeholder="Ingresa tu correo"/>
+        </label>
+        <label for="nombre">Nombre</label>
+        <input type="Text" name="nombre" placeholder="Ingresa tu primer nombre"/>
+        </p>
+        
+        <p>
+            Areas de la carrera
+            <input type="Text" list="areas"  name="areacarrera">
+            <datalist id="areas">
+                <option value="Tecnologias de la información"></option>
+                <option value="Ingenieria de Software"></option>
+                <option value="Video Juegos "></option>
+                <option value="Sistema de información"></option>
+            </datalist>
+            <!--El datalist sirve para poder sugerir cierto valores 
+            en base a los nombres que nosotros escribamos-->
+        </p>
+
+    </body>
+</html>
