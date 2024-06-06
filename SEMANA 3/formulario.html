@@ -1,0 +1,44 @@
+<html lang="es">
+
+<head>
+    <title>..::F o r m u l a r i o::...</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Información</legend>
+        <form action="#" method="POST">
+            <p>
+                <label for="idnombre">Nombre :</label>
+                <input name='nombre' id="idnombre" type='text' tabindex='1' required>
+            </p>
+            <p>
+                <label for="idapellido">Apellido :</label>
+                <input name='apellido' id="idapellido" type='text' tabindex='2' required>
+            </p>
+            <p>
+                <label for="idtipo">Tipo :</label>
+                <select name="idtipo" tabindex="3">
+                    <option value="1">Solicitud</option>
+                    <option value="2" selected>Reclamo</option>
+                </select>
+            </p>
+            <p>
+                <label for="idtelefono">Telefono :</label>
+                <input name='telefono' id="idtelefono" type='tel' tabindex='4' required>
+            </p>
+
+
+            <label for="iddetalle">Ingrese el detalle (Max 50 caracteres) :</label>
+            <p>
+                <textarea name='detalle' id="iddetalle" rows="5" cols="40" maxlength="50">
+                </textarea>
+            </p>
+            
+            <input type="submit" value="E N V I A R">
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

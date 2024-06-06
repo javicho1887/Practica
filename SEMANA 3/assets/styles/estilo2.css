@@ -1,0 +1,20 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    /*font-size:large;*//*Con esta parte de acá s puede poner el tamañao de la letra*/
+    height: 100%; /*Esta parte de acá indica que porcentaje de la pantalla se va a abarcar */
+    margin: 10px; /*Esta parte de acá indica la sepración de los texto*/
+}
+header{
+    font-size: 25px;
+    font-weight: 800;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+h1{
+    color:greenyellow;
+    text-transform:uppercase ;
+    text-shadow: .2em .2em silver;
+    border-color: red;
+    border-style: double;
+}

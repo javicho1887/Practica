@@ -1,0 +1,36 @@
+<html lang="es">
+
+<head>
+    <title>..::L o g i n ::...</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Ingreso de Usuario</legend>
+        <form action="formulario.html" method="POST">
+            <p>
+                <label for="idcorreo">Correo :</label>
+                <input name='correo' id="idcorreo" type='email' tabindex='1' 
+                    placeholder="colocar correo aqui" required>
+            </p>
+            <p>
+                <label for="idclave">Contraseña :</label>
+                <input name='clave' id="idclave" type='password' tabindex='2' 
+                    placeholder="colocar contraseña aqui" required>
+            </p>
+            <p>
+                <label for="idprofesor">Profesor</label>
+                <input type="radio" value="Profesor" name="tipo" id="idprofesor">
+                <label for="idalumno">Alumno</label>
+                <input type="radio" value="Alumno" name="tipo" id="idcorreo" checked="checked">
+            </p>
+
+            <input type="submit" value="Input Ingresar">
+            <button type="submit">Button Ingresar</button>
+            <input type="image" src="./assets/images/submit-button.jpg" height="100" width="100">
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

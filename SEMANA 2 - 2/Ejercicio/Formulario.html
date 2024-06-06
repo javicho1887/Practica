@@ -3,27 +3,32 @@
     <title>Formulario</title>
     <h1>Formulario Ulima</h1>
     <body>
-        <form method="Post" action="#">
-            <fieldset>
+        <fieldset>
             <legend>Información</legend>
-                <p>Nombre
-                <input type="Text" name="Nombre" id="Firstname">
+            <form method="Post" action="#"></form>
+                <p>
+                    <label for="idnombre">Nombre :</label>
+                    <input type="Text" name="Nombre" id="Firstname">
             </p>
-            <p>Apellido:
+            <p>
+                <label for="idapellido">Apellido : </label>
                 <input type="Text" name="Nombre" id="SecondName">
             </p>
-            <p>Tipo:
+            <p>
+            <label for="idtipo">Tipo :</label>
             <select>
                 <option value="1" name="Opción">Solicitud</option>
                 <option value="2" name="Opción">Reclamo</option>
             </select>
             </p>
-            <p>Telefóno:
-                <input type="tel" name="Telefóno">
+            <p>
+                <label for ="idtelefono">Telefóno :</label>
+                <input type="tel" name="Telefóno" id="idtelefono">
             </p>
-            <p>Ingrese el detalle (Max 50 caracteres):
+            <p>
+                <label for="iddetallae">Ingrese el detalle (Max 50 caracteres) :</label>
             <br>
-                <textarea cols="35", rows="5">
+                <textarea name='detalle'cols="40", rows="5" maxlength="50">
                 </textarea>
             </p>
             <input type="submit" value="Enviar"/>
