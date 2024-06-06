@@ -3,6 +3,7 @@ body{
     /*font-size:large;*//*Con esta parte de acá s puede poner el tamañao de la letra*/
     height: 100%; /*Esta parte de acá indica que porcentaje de la pantalla se va a abarcar */
     margin: 10px; /*Esta parte de acá indica la sepración de los texto*/
+    /*Prueba*/
 }
 header{
     font-size: 25px;
