@@ -2,7 +2,9 @@ body{
     font-family:'Times New Roman', Times, serif;
     /*font-size:large;*//*Con esta parte de acá s puede poner el tamañao de la letra*/
     height: 100%; /*Esta parte de acá indica que porcentaje de la pantalla se va a abarcar */
-    margin: 10px; /*Esta parte de acá indica la sepración de los texto*/
+    margin-bottom: 10px; /*Esta parte de acá indica la sepración de los texto*/
+    margin-left: 10%;
+    margin-right: 10%;
     /*Prueba*/
 }
 header{
@@ -18,4 +20,45 @@ h1{
     text-shadow: .2em .2em silver;
     border-color: red;
     border-style: double;
+    border-radius: 10px;
 }
+/*Etiqueta in line y etica block
+In line --> La etiqueta ocupa el ancho de su contenido 
+Etiqueta de tipo block es por ejemplo como la H1 "un titulo" ocuparia todo eso como
+un enter y lo que siga viene abajo 
+*/
+
+/*Seguidamente seguimos con las etiquetas de tipo p*/
+
+p{
+    font-size: small;
+    margin-left: 100px;
+}
+
+/*Tener en consideración que hay apis de almacenamiento y también hay
+apis que son de música y se pueden usar en entornos de multi navegación y 
+geolocalización, mediante triangulación .*/
+
+li {
+    text-align: justify;
+    font-family: 'Courier New',Courier,monospace;
+    font-size:small;
+    display: inline;
+
+}
+nav li{
+    display: inline-block;
+    width:10%;
+    padding: 5px 10px;
+    border: 1px red solid;
+    background-color: tomato;
+    border-radius: 8px;
+    text-align: center;
+
+}
+nav liv:hover {
+    background-color: yellow;
+    color: black
+    
+} 
+
