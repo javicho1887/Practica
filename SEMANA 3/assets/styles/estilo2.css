@@ -59,6 +59,40 @@ nav li{
 nav liv:hover {
     background-color: yellow;
     color: black
-    
+
 } 
 
+svg {
+    width: 100px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#contenedor {
+    text-align: left;
+    width: 100%;
+    margin:auto;
+
+}
+
+#principal {
+    width: 75%;
+    float: left;
+
+}
+
+#lateral{
+    width: 20%;
+    background-color: chocolate;
+    float: right;
+    font-size: small;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    clear: both;
+    background-color:black ;
+    color: white;
+}
